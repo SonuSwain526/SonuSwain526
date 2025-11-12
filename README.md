@@ -37,7 +37,7 @@
 ### 🧩 Tech Stack  
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,flask,html,css,js,git,github,sqlite,mysql,sklearn,tensorflow,pytorch,vscode,linux&perline=8" />
+  <img src="https://skillicons.dev/icons?i=python,flask,git,github,sqlite,mysql,sklearn,tensorflow,linux&perline=8" />
 </p>
 
 ---
@@ -63,21 +63,11 @@ Built using **Python, Flask, Ollama embeddings, and Retrieval-Augmented Generati
 ### 🎨 Developer Mood Board  
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=Turning+Ideas+Into+AI+Projects...;Debugging+the+World+One+Error+at+a+Time...;Dreaming+In+Python+and+NumPy...;Eat+⚡+Sleep+💻+Code+☕+Repeat" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/giphy.gif" width="400" alt="Coder gif"/>
+  <img src="https://readme-typing-sfont=Fira+Code&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=Turning+Ideas+Into+AI+Projects...;Debugging+the+World+One+Error+at+a+Time...;Dreaming+In+Python+and+NumPy...;Eat+⚡+Sleep+💻+Code+☕+Repeat" alt="Typing SVG" />
 </p>
 
 ---
 
-### 🪄 Fun Section  
-> 🧩 *“Machine Learning is like magic — except the wand is a GPU and the spell is a Jupyter cell.”*  
-> ☕ *“Training models and overfitting my sleep schedule since 2023.”*  
-> 💾 *“In data we trust, in debugging we suffer.”*  
-
----
 
 ### 🌐 Connect with Me  
 
