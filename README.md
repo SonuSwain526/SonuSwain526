@@ -54,19 +54,10 @@ Built using **Python, Flask, Ollama embeddings, and Retrieval-Augmented Generati
 ### 📈 GitHub Analytics  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SonuSwain526&show_icons=true&theme=tokyonight" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=SonuSwain526&show_icons=true&theme=tokyonight" /> -->
   <img src="https://github-readme-streak-stats.herokuapp.com?user=SonuSwain526&theme=tokyonight" />
 </p>
 
----
-
-### 🎨 Developer Mood Board  
-
-<p align="center">
-  <img src="https://readme-typing-sfont=Fira+Code&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=Turning+Ideas+Into+AI+Projects...;Debugging+the+World+One+Error+at+a+Time...;Dreaming+In+Python+and+NumPy...;Eat+⚡+Sleep+💻+Code+☕+Repeat" alt="Typing SVG" />
-</p>
-
----
 
 
 ### 🌐 Connect with Me  
@@ -78,10 +69,6 @@ Built using **Python, Flask, Ollama embeddings, and Retrieval-Augmented Generati
 </p>
 
 ---
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SonuSwain526&theme=darkhub&no-frame=true&no-bg=false&margin-w=10" />
-</p>
 
 ---
 
