@@ -54,8 +54,8 @@ Built using **Python, Flask, Ollama embeddings, and Retrieval-Augmented Generati
 ### 📈 GitHub Analytics  
 
 <p align="center">
-  <!-- <img src="https://github-readme-stats.vercel.app/api?username=SonuSwain526&show_icons=true&theme=tokyonight" /> -->
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=SonuSwain526&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SonuSwain526&show_icons=true&theme=tokyonight" />
+  <!-- <img src="https://github-readme-streak-stats.herokuapp.com?user=SonuSwain526&theme=tokyonight" /> -->
 </p>
 
 
