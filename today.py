@@ -10,7 +10,7 @@ import hashlib
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 HEADERS = {'authorization': 'token ' + os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME']  # e.g. 'SonuSwain526'
-import os
+REQUEST_TIMEOUT = 15  # seconds, avoid hanging Actions runs on a stuck API call
 
 os.makedirs("cache", exist_ok=True)
 SVG_FILE = 'assets/gourab_fetch.svg'         # the single card this script updates
@@ -23,8 +23,12 @@ def simple_request(func_name, query, variables):
     Returns a request, or raises an Exception if the response does not succeed.
     """
     request = requests.post('https://api.github.com/graphql',
-                             json={'query': query, 'variables': variables}, headers=HEADERS)
+                             json={'query': query, 'variables': variables}, headers=HEADERS,
+                             timeout=REQUEST_TIMEOUT)
     if request.status_code == 200:
+        body = request.json()
+        if 'errors' in body:
+            raise Exception(func_name, ' returned GraphQL errors:', body['errors'], QUERY_COUNT)
         return request
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
 
@@ -51,7 +55,13 @@ def graph_commits(start_date, end_date):
 
 def graph_repos_stars(count_type, owner_affiliation, cursor=None):
     """
-    Uses GitHub's GraphQL v4 API to return total repository or star count
+    Uses GitHub's GraphQL v4 API to return total repository or star count.
+
+    NOTE: with ownerAffiliations=['OWNER'] this counts every repo you own that
+    your ACCESS_TOKEN can see, including private repos. If your token has
+    private-repo access, this number can legitimately be higher than the
+    public repo count shown to logged-out visitors of your profile. That is
+    expected behavior, not a bug — decide which number you actually want.
     """
     query_count('graph_repos_stars')
     query = '''
@@ -108,7 +118,8 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
         }
     }'''
     variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor}
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables': variables}, headers=HEADERS)
+    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables': variables},
+                             headers=HEADERS, timeout=REQUEST_TIMEOUT)
     if request.status_code == 200:
         if request.json()['data']['repository']['defaultBranchRef'] is not None:
             return loc_counter_one_repo(owner, repo_name, data, cache_comment,
@@ -415,7 +426,11 @@ if __name__ == '__main__':
     following_data, following_time = perf_counter(following_getter, USER_NAME)
 
     now = datetime.datetime.utcnow()
-    one_year_ago = now.replace(year=now.year - 1)
+    try:
+        one_year_ago = now.replace(year=now.year - 1)
+    except ValueError:
+        # today is Feb 29 and last year wasn't a leap year
+        one_year_ago = now.replace(month=2, day=28, year=now.year - 1)
     contrib2_data, contrib2_time = perf_counter(
         graph_commits, one_year_ago.strftime('%Y-%m-%dT%H:%M:%SZ'), now.strftime('%Y-%m-%dT%H:%M:%SZ'))
 
