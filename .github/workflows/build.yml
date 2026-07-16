@@ -30,19 +30,34 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
       - name: Generate SVG
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: SonuSwain526
         run: python today.py
 
+      - name: Bust raw.githubusercontent.com image cache
+        # raw.githubusercontent.com is served through a CDN that does not
+        # invalidate instantly on push, and browsers cache the <img> too.
+        # Rewriting the query string on every run forces a fresh fetch.
+        run: |
+          STAMP=$(date +%s)
+          sed -i -E "s|(gourab_fetch\.svg)(\?v=[0-9]+)?\"|\1?v=${STAMP}\"|" README.md
+
       - name: Commit Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/gourab_fetch.svg
+          git add assets/gourab_fetch.svg README.md
 
           git diff --cached --quiet || git commit -m "🤖 Update GitHub stats"
 
-          git push
+      - name: Pull latest before pushing
+        # Guards against a race between the "push" trigger and the
+        # "schedule" trigger firing close together.
+        run: git pull --rebase --autostash origin main
+
+      - name: Push Changes
+        run: git push
