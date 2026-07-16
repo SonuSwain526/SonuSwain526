@@ -69,8 +69,8 @@
 <line x1="523" y1="376" x2="1152" y2="376" stroke="#30363d" stroke-width="1"/>
 <text x="523" y="400" class="tree"><tspan fill="#6e7681">&#9500;&#9472;&#9472; </tspan><tspan class="proj">RAG-BASE-AI-TEACHING-ASSISTANT</tspan></text>
 <text x="523" y="422" class="tree"><tspan fill="#6e7681">&#9500;&#9472;&#9472; </tspan><tspan class="proj">structured-api-router</tspan></text>
-<text x="523" y="444" class="tree"><tspan fill="#6e7681">&#9500;&#9472;&#9472; </tspan><tspan class="proj">data-science</tspan></text>
-<text x="523" y="466" class="tree"><tspan fill="#6e7681">&#9492;&#9472;&#9472; </tspan><tspan class="proj">COMPLETE-DSA-LEARNING</tspan></text>
+<text x="523" y="444" class="tree"><tspan fill="#6e7681">&#9500;&#9472;&#9472; </tspan><tspan class="proj">VID-SNAP-AI</tspan></text>
+<text x="523" y="466" class="tree"><tspan fill="#6e7681">&#9492;&#9472;&#9472; </tspan><tspan class="proj">PLACEMENT-ASSIST</tspan></text>
 <text x="523" y="496" class="section">GitHub Stats</text>
 <line x1="523" y1="502" x2="1152" y2="502" stroke="#30363d" stroke-width="1"/>
 <text x="523" y="526" class="row"><tspan class="key">Repos:</tspan><tspan class="dots">............. </tspan><tspan class="val">20</tspan></text>
