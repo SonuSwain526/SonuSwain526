@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">
+<style>
+  text, tspan { white-space: pre; }
+  .key { fill: #ffa657; }
+  .val { fill: #a5d6ff; }
+  .dots { fill: #484f58; }
+  .ascii { fill: #8b949e; font-size: 13px; }
+  .label { fill: #6e7681; font-size: 12px; letter-spacing: 0.5px; }
+  .header { fill: #79c0ff; font-size: 17px; font-weight: 600; }
+  .section { fill: #c9d1d9; font-size: 13px; font-weight: 600; }
+  .row { fill: #c9d1d9; font-size: 13.5px; }
+  .tree { fill: #c9d1d9; font-size: 13.5px; }
+  .proj { fill: #79c0ff; font-size: 13.5px; }
+  .green { fill: #3fb950; font-size: 13.5px; }
+</style>
+
+<!-- outer background -->
+<rect width="1200" height="640" fill="#0d1117" rx="14"/>
+
+<!-- left ascii panel -->
+<rect x="24" y="24" width="451" height="592" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<circle cx="46" cy="46" r="5" fill="#ff5f56"/>
+<circle cx="64" cy="46" r="5" fill="#ffbd2e"/>
+<circle cx="82" cy="46" r="5" fill="#27c93f"/>
+<text x="249.5" y="50" text-anchor="middle" class="label">gourab.ascii</text>
+<line x1="40" y1="62" x2="459" y2="62" stroke="#30363d" stroke-width="1"/>
+<text x="97.4" y="119.0" class="ascii">
+<tspan x="97.4" y="119.0">              `-*##%#*=.               </tspan>
+<tspan x="97.4" y="139.0">             -%##%%%%%@%*`             </tspan>
+<tspan x="97.4" y="159.0">            =@%%@@@%%#%%@+             </tspan>
+<tspan x="97.4" y="179.0">            %@%+**++-.:+@*             </tspan>
+<tspan x="97.4" y="199.0">            #%::-++=-::.##             </tspan>
+<tspan x="97.4" y="219.0">            *=.=*#+-*#=:=*             </tspan>
+<tspan x="97.4" y="239.0">            -=..=--::=:`--             </tspan>
+<tspan x="97.4" y="259.0">            `-=*%=++-+#-=`             </tspan>
+<tspan x="97.4" y="279.0">              +*=-==.:++.              </tspan>
+<tspan x="97.4" y="299.0">             `=+*+**=+*+`              </tspan>
+<tspan x="97.4" y="319.0">            `.=*#%%%%%*-:..=-:         </tspan>
+<tspan x="97.4" y="339.0">       `+##*##.==+***+--*%#%@@*..`     </tspan>
+<tspan x="97.4" y="359.0">    ```+@@@@@-.::::-:::-.*@@%%@+...`   </tspan>
+<tspan x="97.4" y="379.0">   `.`-%%%%%*.......-.-..:#%%%%@:...`  </tspan>
+<tspan x="97.4" y="399.0">  ``.`-@%%%%-...`.:::`::..-%@%@*.:...  </tspan>
+<tspan x="97.4" y="419.0"> ``....*@%@+:......:......:+%%%-:....` </tspan>
+<tspan x="97.4" y="439.0"> .`.:..-%%%-...::.:-.::::::.*%=-:::... </tspan>
+<tspan x="97.4" y="459.0">.``..::.+@+.:::::::-::::-:..+%=-:...`..</tspan>
+<tspan x="97.4" y="479.0">`.....::*@----:::::-::::--::=@+`....:. </tspan>
+<tspan x="97.4" y="499.0">  `..:.:#=:-----:.:::::::.:::=:```..`  </tspan>
+<tspan x="97.4" y="519.0">   ``::==:.````...::::::::::--=:.`     </tspan>
+<tspan x="97.4" y="539.0">        `--==-=+*************+=.       </tspan>
+<tspan x="97.4" y="559.0">           .==*#%%%%%##*+=-.`          </tspan>
+</text>
+<text x="249.5" y="600" text-anchor="middle" class="label">CSE &#8226; OUTR Bhubaneswar</text>
+<rect x="499" y="24" width="677" height="592" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="523" y="58" class="header">gourab@github</text>
+<line x1="523" y1="70" x2="1152" y2="70" stroke="#30363d" stroke-width="1"/>
+<text x="523" y="98" class="row"><tspan class="key">OS:</tspan><tspan class="dots">................ </tspan><tspan class="val">Student_OS v3.0</tspan></text>
+<text x="523" y="120" class="row"><tspan class="key">Host:</tspan><tspan class="dots">.............. </tspan><tspan class="val">OUTR Bhubaneswar</tspan></text>
+<text x="523" y="142" class="row"><tspan class="key">Kernel:</tspan><tspan class="dots">............ </tspan><tspan class="val">AI Research Build</tspan></text>
+<text x="523" y="164" class="row"><tspan class="key">Shell:</tspan><tspan class="dots">............. </tspan><tspan class="val">Python</tspan></text>
+<text x="523" y="186" class="row"><tspan class="key">Editor:</tspan><tspan class="dots">............ </tspan><tspan class="val">VS Code</tspan></text>
+<text x="523" y="208" class="row"><tspan class="key">Focus:</tspan><tspan class="dots">............. </tspan><tspan class="val">Agentic AI / GenAI</tspan></text>
+<text x="523" y="230" class="row"><tspan class="key">Learning:</tspan><tspan class="dots">.......... </tspan><tspan class="val">RAG - Vector DBs - LLMs</tspan></text>
+<text x="523" y="252" class="row"><tspan class="key">Stack:</tspan><tspan class="dots">............. </tspan><tspan class="val">Flask FastAPI Ollama</tspan></text>
+<text x="523" y="274" class="row"><tspan class="key">DB:</tspan><tspan class="dots">................ </tspan><tspan class="val">SQLite MySQL</tspan></text>
+<text x="523" y="296" class="row"><tspan class="key">ML:</tspan><tspan class="dots">................ </tspan><tspan class="val">Scikit-learn TensorFlow</tspan></text>
+<text x="523" y="318" class="row"><tspan class="key">Git:</tspan><tspan class="dots">............... </tspan><tspan class="val">Daily Commit Mode</tspan></text>
+<text x="523" y="340" class="row"><tspan class="key">Status:</tspan><tspan class="dots">............ </tspan><tspan class="val">Building the Future</tspan></text>
+<text x="523" y="370" class="section">Projects</text>
+<line x1="523" y1="376" x2="1152" y2="376" stroke="#30363d" stroke-width="1"/>
+<text x="523" y="400" class="tree"><tspan fill="#6e7681">&#9500;&#9472;&#9472; </tspan><tspan class="proj">RAG-BASE-AI-TEACHING-ASSISTANT</tspan></text>
+<text x="523" y="422" class="tree"><tspan fill="#6e7681">&#9500;&#9472;&#9472; </tspan><tspan class="proj">structured-api-router</tspan></text>
+<text x="523" y="444" class="tree"><tspan fill="#6e7681">&#9500;&#9472;&#9472; </tspan><tspan class="proj">data-science</tspan></text>
+<text x="523" y="466" class="tree"><tspan fill="#6e7681">&#9492;&#9472;&#9472; </tspan><tspan class="proj">COMPLETE-DSA-LEARNING</tspan></text>
+<text x="523" y="496" class="section">GitHub Stats</text>
+<line x1="523" y1="502" x2="1152" y2="502" stroke="#30363d" stroke-width="1"/>
+<text x="523" y="526" class="row"><tspan class="key">Repos:</tspan><tspan class="dots">............. </tspan><tspan class="val">20</tspan></text>
+<text x="837" y="526" class="row"><tspan class="key">Stars:</tspan><tspan class="dots">............. </tspan><tspan class="val">8</tspan></text>
+<text x="523" y="548" class="row"><tspan class="key">Followers:</tspan><tspan class="dots">......... </tspan><tspan class="val">6</tspan></text>
+<text x="837" y="548" class="row"><tspan class="key">Following:</tspan><tspan class="dots">......... </tspan><tspan class="val">21</tspan></text>
+<text x="523" y="570" class="row"><tspan class="key">Contributions:</tspan><tspan class="dots"> ....... </tspan><tspan class="val">741</tspan><tspan class="dots" fill="#6e7681"> (past year)</tspan></text>
+</svg>
