@@ -1,7 +1,7 @@
 <!-- Terminal Fetch Card (single SVG — pixel-perfect alignment, no markdown table hacks) -->
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/SonuSwain526/SonuSwain526/main/assets/gourab_fetch.svg?v=0"
+    src="https://raw.githubusercontent.com/SonuSwain526/SonuSwain526/main/assets/gourab_fetch.svg?v=1784230919"
     alt="gourab@github system fetch"
     width="100%"
   />
