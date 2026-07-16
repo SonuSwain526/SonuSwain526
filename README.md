@@ -1,7 +1,7 @@
 <!-- Terminal Fetch Card (single SVG — pixel-perfect alignment, no markdown table hacks) -->
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/SonuSwain526/SonuSwain526/main/assets/gourab_fetch.svg?v=1784232322"
+    src="https://raw.githubusercontent.com/SonuSwain526/SonuSwain526/main/assets/gourab_fetch.svg?v=0"
     alt="gourab@github system fetch"
     width="100%"
   />
@@ -9,72 +9,76 @@
 
 ---
 
-### 🌟 About
+```bash
+$ cat about.md
+```
 
-> "Fuelled by curiosity, powered by Python, and slightly addicted to debugging at 4 A.M."
-
-- 🎓 Student at **Odisha University of Technology and Research (OUTR), Bhubaneswar**
-- 🧠 Exploring **Deep Learning**, **Agentic AI**, and **AI architectures**
-- 🚀 Currently building: [**RAG-BASE-AI-TEACHING-ASSISTANT**](https://github.com/SonuSwain526/RAG-BASE-AI-TEACHING-ASSISTANT)
-- 🌱 Learning: **Advanced Deep Learning** · **Vector Databases** · **RAG & LLM Integrations**
-- 🎯 Goal: To become a skilled **AI Engineer** blending creativity and code
-
----
-
-### 🧩 Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,react,tailwind,docker,git,github,linux,vscode,postgres,mysql&perline=6" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LlamaIndex-7B61FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ChromaDB-5A67D8?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-</p>
-
-**Languages:** Python
-**Frameworks:** Flask, FastAPI
-**Libraries:** Scikit-learn, TensorFlow, Ollama
-**Databases:** SQLite, MySQL
-**Tools:** Git, GitHub, Linux
+```
+Student  : Odisha University of Technology and Research (OUTR), Bhubaneswar
+Focus    : Deep Learning · Agentic AI · AI Architectures
+Building : RAG-BASE-AI-TEACHING-ASSISTANT
+Learning : Advanced DL · Vector Databases · RAG & LLM Integrations
+Goal     : AI Engineer — blending creativity and code
+```
 
 ---
 
-### 🚀 Featured Projects
+```bash
+$ tree stack/
+```
+
+```
+stack/
+├── languages/    python · java
+├── frameworks/   flask · fastapi
+├── ai-ml/        langchain · llamaindex · openai · ollama · huggingface
+├── vector-db/    qdrant · chromadb
+├── ml/           scikit-learn · tensorflow
+├── databases/    sqlite · mysql
+└── tools/        git · github · linux · docker
+```
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,fastapi,react,tailwind,docker,git,github,linux,vscode,postgres,mysql&perline=6" />
+</p>
+
+---
+
+```bash
+$ cat agentic-ai.md
+```
+
+```
+> Designing agents that reason, plan, and act — not just autocomplete.
+
+  reasoning     multi-step task decomposition, self-correction loops
+  memory        RAG pipelines over vector stores for long-term context
+  tool-use      function-calling, structured JSON output, API routing
+  orchestration multi-agent handoff and pipeline coordination
+```
+
+---
+
+```bash
+$ ls projects/ --sort=recent
+```
 
 **[RAG-BASE-AI-TEACHING-ASSISTANT](https://github.com/SonuSwain526/RAG-BASE-AI-TEACHING-ASSISTANT)**
-A RAG Teaching Assistant for Krish Naik's NLP (Hindi) YouTube course — ask questions about the video content and get instant, accurate answers. Built with **Python, Ollama, and Flask**.
+RAG teaching assistant for Krish Naik's NLP (Hindi) course. `Python · Ollama · Flask`
 
 **[structured-api-router](https://github.com/SonuSwain526/structured-api-router)**
-A high-performance B2B AI pipeline using a fine-tuned Llama-3 model (QLoRA) to convert unstructured conversational text into strict, validated JSON API payloads with 100% schema compliance.
+Fine-tuned Llama-3 (QLoRA) pipeline converting unstructured text into validated JSON API payloads. `100% schema compliance`
 
 **[data-science](https://github.com/SonuSwain526/data-science)**
-An end-to-end Data Science journey — covering Python, ML, DL, NLP, and deployment with real-world projects.
+End-to-end Data Science journey — Python, ML, DL, NLP, deployment.
 
 **[COMPLETE-DSA-LEARNING](https://github.com/SonuSwain526/COMPLETE-DSA-LEARNING)**
-Daily DSA practice and progress, pushed consistently as part of an ongoing coding challenge.
+Daily DSA practice, pushed consistently.
 
 ---
 
-### 📈 GitHub Analytics
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SonuSwain526&show_icons=true&theme=tokyonight" />
+  <a href="https://www.linkedin.com/in/gourab-swain/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/SonuSwain526"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://www.instagram.com/officialgourab_/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" /></a>
 </p>
-
----
-
-### 🌐 Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/gourab-swain/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/SonuSwain526"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
-  <a href="https://www.instagram.com/officialgourab_/"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
-</p>
-
-<p align="center">⭐ If you like my projects, consider giving a star to support my journey!</p>
