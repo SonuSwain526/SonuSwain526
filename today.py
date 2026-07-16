@@ -10,7 +10,7 @@ import hashlib
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 HEADERS = {'authorization': 'token ' + os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME']  # e.g. 'SonuSwain526'
-SVG_FILE = 'gourab_fetch.svg'         # the single card this script updates
+SVG_FILE = 'assets/gourab_fetch.svg'         # the single card this script updates
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'following_getter': 0,
                 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
